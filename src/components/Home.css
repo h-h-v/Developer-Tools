@@ -1,0 +1,65 @@
+/* Home.css */
+
+/* Dark Theme */
+.home-container {
+  background-color: #0F0F0F; /* Dark background */
+  color: #d9d9d9; /* Light text */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-family: monospace; /* Change font family to monospace */
+  color: #FAF0E6; /* Light blue */
+  font-size: 48px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.main-content {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+p {
+  font-family: monospace; /* Change font family to monospace */
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 15px 30px;
+  background-color: #4caf50; /* Green */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #388e3c; /* Darker green */
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #8b949e; /* Light gray */
+}
+
+footer a {
+  font-family: monospace; /* Change font family to monospace */
+  color: #80d8ff; /* Light blue */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
